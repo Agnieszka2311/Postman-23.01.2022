@@ -1,0 +1,297 @@
+{
+	"id": "915ece36-7709-4b23-b355-5bc33ce96520",
+	"name": "WSB 2.0",
+	"timestamp": "2022-01-23T13:21:38.534Z",
+	"collection_id": "19272262-9894c287-befc-4ee4-b63b-473a020f35c6",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 9,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b33798c5-49f7-4790-87b1-36747fcf99ec",
+			"name": "POST auth",
+			"url": "https://simple-books-api.glitch.me//api-clients/",
+			"time": 2823,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2823
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "509d77e9-6fa0-4dcb-847c-ba03d3d7f00a",
+			"name": "GET  status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 1893,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1893
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9a6ead7a-ab94-42cb-9b3d-49ed2a60105a",
+			"name": "GET  list of books",
+			"url": "https://simple-books-api.glitch.me/books?Type=fiction&=",
+			"time": 204,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "86e161c3-d001-42ab-9e84-05b16312cad4",
+			"name": "GET a book",
+			"url": "https://simple-books-api.glitch.me//books/1",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dc1041b3-8ba9-497f-bd12-ed80babf7091",
+			"name": "POST submit an order",
+			"url": "https://simple-books-api.glitch.me//orders",
+			"time": 1650,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1650
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "d2461087-7992-461b-b99d-2ef3379b4bce",
+			"name": "GET orders",
+			"url": "https://simple-books-api.glitch.me//orders",
+			"time": 1929,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1929
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8de05669-ab62-45b1-88a4-5eb33898aec7",
+			"name": "GET  an order",
+			"url": "https://simple-books-api.glitch.me//orders/rTAiiuCya1myr7dUNlLnG",
+			"time": 677,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				677
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2fa2f990-3813-47e9-abde-d7020823bb5e",
+			"name": "PATCH update an order",
+			"url": "https://simple-books-api.glitch.me//orders/rTAiiuCya1myr7dUNlLnG",
+			"time": 1566,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1566
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "5cec8aa7-781c-43b0-b69e-aeca556f192d",
+			"name": "DELETE an order",
+			"url": "https://simple-books-api.glitch.me//orders/rTAiiuCya1myr7dUNlLnG",
+			"time": 3662,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3662
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 14530,
+	"collection": {
+		"requests": [
+			{
+				"id": "b33798c5-49f7-4790-87b1-36747fcf99ec",
+				"method": "POST"
+			},
+			{
+				"id": "509d77e9-6fa0-4dcb-847c-ba03d3d7f00a",
+				"method": "GET"
+			},
+			{
+				"id": "9a6ead7a-ab94-42cb-9b3d-49ed2a60105a",
+				"method": "GET"
+			},
+			{
+				"id": "86e161c3-d001-42ab-9e84-05b16312cad4",
+				"method": "GET"
+			},
+			{
+				"id": "dc1041b3-8ba9-497f-bd12-ed80babf7091",
+				"method": "POST"
+			},
+			{
+				"id": "d2461087-7992-461b-b99d-2ef3379b4bce",
+				"method": "GET"
+			},
+			{
+				"id": "8de05669-ab62-45b1-88a4-5eb33898aec7",
+				"method": "GET"
+			},
+			{
+				"id": "2fa2f990-3813-47e9-abde-d7020823bb5e",
+				"method": "PATCH"
+			},
+			{
+				"id": "5cec8aa7-781c-43b0-b69e-aeca556f192d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
